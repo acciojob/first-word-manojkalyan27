@@ -1,8 +1,8 @@
-
-      function firstWord(s) {
+function firstWord(s) {
     // your code here
       let s1 = ""; 
-      let flag = true;
+      // let s2 = "'"
+      // let flag = true;
 
       for (let a of s) {
           
@@ -10,13 +10,12 @@
               s1 = s1 + a;			
           }
           else if(a === ' '){
-
-              return s1 ;
+			  return s1;
+              // break;
           }
       }
       return s1;
   }
-
 // Do not change the code below
 
 const s = prompt("Enter String:");

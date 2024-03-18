@@ -1,9 +1,7 @@
-function firstWord(s) {
-    // your code here
+
       function firstWord(s) {
     // your code here
-      let s1 = "'"; 
-      let s2 = "'"
+      let s1 = ""; 
       let flag = true;
 
       for (let a of s) {
@@ -13,11 +11,10 @@ function firstWord(s) {
           }
           else if(a === ' '){
 
-              return s1 + s2;
-              break;
+              return s1 ;
           }
       }
-      return s1 + s2;
+      return s1;
   }
 
 // Do not change the code below

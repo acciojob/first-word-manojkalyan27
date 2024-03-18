@@ -1,11 +1,7 @@
 function firstWord(s) {
     // your code here
       let s1 = ""; 
-      // let s2 = "'"
-      // let flag = true;
-
       for (let a of s) {
-          
           if(a != ' '){
               s1 = s1 + a;			
           }
@@ -16,7 +12,5 @@ function firstWord(s) {
       }
       return s1;
   }
-// Do not change the code below
-
 const s = prompt("Enter String:");
 alert(firstWord(s));

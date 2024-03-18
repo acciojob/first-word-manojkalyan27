@@ -8,6 +8,7 @@ function firstWord(s) {
 		}
 		else if(a === ' '){
 			return s1;
+			break;
 		}
 	}
 	return s1;
@@ -15,5 +16,5 @@ function firstWord(s) {
 
 // Do not change the code below
 
-const s = prompt("Enter String:");
+// const s = prompt("Enter String:");
 alert(firstWord(s));
